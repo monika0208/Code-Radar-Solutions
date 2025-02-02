@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b,c;
-    scanf("%d",&a);
-    printf("Average: %d",(a));
+    scanf("%d",&a,&b);
+    printf("Average: %d",(a+b));
     return 0;
 }
