@@ -17,7 +17,7 @@ int main() {
         printf("Consonant");
     }
     else if(f=='5'){
-        printf("Digit")
+        printf("Digit");
     }
     return 0;
 }
