@@ -13,9 +13,7 @@ int main() {
     else if(f=='z'){
         printf("Consonant");
     }
-    else{
-        printf("Consonant");
-    }
+    
     else if(f=='5'){
         printf("Digit");
     }
