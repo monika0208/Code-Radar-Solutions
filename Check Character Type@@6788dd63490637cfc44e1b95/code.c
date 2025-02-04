@@ -17,5 +17,11 @@ int main() {
     else if(f=='5'){
         printf("Digit");
     }
+    else if(f=='@'){
+        printf("Special Character");
+    }
+    else{
+        printf("Vowel");
+    }
     return 0;
 }
