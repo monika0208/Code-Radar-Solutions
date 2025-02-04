@@ -11,7 +11,7 @@ int main() {
         printf("Vowel");
     }
     else if(f=='z'){
-        printf("Consonant")l
+        printf("Consonant");
     }
     else{
         printf("Consonant");
