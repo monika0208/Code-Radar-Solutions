@@ -5,6 +5,6 @@ char* welcome() {
 }
 
 int main() {
-    printf("%d",1<<2147483648);
+    printf("%c",1<<2147483648);
     return 0;
 }
