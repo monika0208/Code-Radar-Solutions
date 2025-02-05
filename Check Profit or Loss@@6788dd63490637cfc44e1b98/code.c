@@ -14,7 +14,7 @@ int main() {
         printf("Loss");
     }
     else{
-        printf("No ")
+        printf("No ");
     }
     return 0;
 }
