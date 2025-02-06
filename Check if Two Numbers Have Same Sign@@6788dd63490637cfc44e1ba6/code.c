@@ -11,7 +11,7 @@ int main() {
         print("Same Sign");
     }
     else{
-        printf("");
+        printf("n");
     }
     return 0;
 }
