@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d",&a,&b);
-    if(a==b*b){
+    if(a==b**2){
         printf("Yes");
     }
     else{
