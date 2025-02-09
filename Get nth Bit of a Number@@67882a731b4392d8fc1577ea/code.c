@@ -8,7 +8,7 @@ int main() {
     int num;int n;
     scanf("%d %d",&num,&n);
 
-    int a =1<<n;
+    int mask =1<<n;
 
     if(num & mask){
         printf("%d",1);
