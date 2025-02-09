@@ -11,7 +11,7 @@ int main() {
     int bits=sizeof(a)*8;
     int msb=1<<(bits-1);
 
-    if(a&msb==1){
+    if((a&msb)==1){
         printf("Set");
     }
     else{
