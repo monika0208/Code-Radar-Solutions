@@ -20,7 +20,7 @@ int main() {
     // Clear the nth bit using bitwise AND with the mask
     int updatedNum = num & mask;
     
-    printf("%d\n", n, updatedNum);
+    printf("%d\n", updatedNum);
 
 
     return 0;
