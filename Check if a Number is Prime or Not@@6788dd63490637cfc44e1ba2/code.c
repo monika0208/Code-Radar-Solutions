@@ -4,7 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
+int main(){
     int num;isPrime=1;
     scanf("%d",&num);
     if(num<=1){
@@ -24,4 +24,4 @@ int main() {
         print("Not Prime");
     }
     return 0;
-}
+}}
