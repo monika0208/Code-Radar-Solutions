@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int num;
+    int num;isPrime=1;
     scanf("%d",&num);
     if(num<=1){
         printf("Not Prime");
@@ -13,11 +13,15 @@ int main() {
     }
     for(int i=2,i*i<=num,i++){
         if(num%i==0){
-            printf("Not Prime");
-        }
-        else{
-            printf("Prime");
-        }
+            isPrime=0;
+            break;
+    }
+
+    if(isPrime){
+        printf("Prime");
+    }
+    else{
+        print("Not Prime");
     }
     return 0;
 }
