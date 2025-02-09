@@ -8,7 +8,7 @@ char* welcome() {
 int main() {
     int num, n;
     
-    printf("Enter a number: ");
+
     scanf("%d", &num);
     
     printf("Enter the bit position to clear (0-based index): ");
@@ -20,7 +20,7 @@ int main() {
     // Clear the nth bit using bitwise AND with the mask
     int updatedNum = num & mask;
     
-    printf("Updated number after clearing %dth bit: %d\n", n, updatedNum);
+    printf("%d\n", n, updatedNum);
 
 
     return 0;
