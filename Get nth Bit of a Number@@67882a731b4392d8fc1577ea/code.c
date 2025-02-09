@@ -10,6 +10,11 @@ int main() {
 
     int a =1<<n;
 
-    printf("%d",num & mask);
+    if(num & mask){
+        printf("%d",1);
+    }
+    else{
+        printf("%d",0);
+    }
     return 0;
 }
