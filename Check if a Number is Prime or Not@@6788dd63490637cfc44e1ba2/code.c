@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main(){
-    int num;isPrime=1;
+    int num,isPrime=1;
     scanf("%d",&num);
     if(num<=1){
         printf("Not Prime");
