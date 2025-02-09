@@ -4,8 +4,6 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
-    #include <stdio.h>
 
 int main() {
     int num, n;
@@ -24,8 +22,6 @@ int main() {
     
     printf("Updated number after clearing %dth bit: %d\n", n, updatedNum);
 
-    return 0;
-}
 
     return 0;
 }
