@@ -5,6 +5,17 @@ char* welcome() {
 }
 
 int main() {
-    printf("%c",1<<2147483648);
+    int a;
+    scanf("%d",&a);
+
+    int bits=sizeof(a)*8;
+    int msb=1<<(bits-1);
+
+    if(a&msb==1){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
     return 0;
 }
