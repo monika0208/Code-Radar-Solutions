@@ -10,6 +10,6 @@ int main() {
 
     int a =1<<n;
 
-    printf("%d",num&mask);
+    printf("%d",num & mask);
     return 0;
 }
