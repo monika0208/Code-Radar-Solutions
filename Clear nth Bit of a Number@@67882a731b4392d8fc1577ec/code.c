@@ -11,7 +11,7 @@ int main() {
 
     scanf("%d", &num);
     
-    printf("Enter the bit position to clear (0-based index): ");
+    
     scanf("%d", &n);
     
     // Create a mask by left shifting 1 to the nth position and negating it
