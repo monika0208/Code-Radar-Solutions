@@ -7,6 +7,21 @@ char* welcome() {
 int main() {
     int a;int b;char c;
     scanf("%d %d %c",&a,&b,&c);
-    printf("%d %c %d ",a,c,b);
+    switch(c){
+        case'+':
+        printf("%d",a+b);
+        break;
+        case'-':
+        printf("%d",a-b);
+        break;
+        case '*':
+        printf("%d",a*b);
+        break;
+        case '/':
+        printf("%d",a/b);
+        break;
+        default:
+        printf("error");
+    }
     return 0;
 }
