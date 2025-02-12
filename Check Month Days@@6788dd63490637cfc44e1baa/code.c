@@ -9,7 +9,10 @@ int main(){
     }
     else if(a==2||a==4||a==6||a==8){
        printf("30");
-    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               )
+    }     
+    else{
+        printf("Np");
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          )
 
 
     return 0;
