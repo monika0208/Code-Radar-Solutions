@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;char c;
+    int a;int b;char c;
     scanf("%d %d %c",&a,&b,&c);
-    int d=abc;
+    int d=acb;
     printf("%d",d);
     return 0;
 }
