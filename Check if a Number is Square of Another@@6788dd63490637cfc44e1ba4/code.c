@@ -8,7 +8,7 @@ int main() {
     int a,b;
     scanf("%d",&a,&b);
     if(a==(b*b)){
-        printf("Yes");
+        printf("%d",b);
     }
 
     return 0;
