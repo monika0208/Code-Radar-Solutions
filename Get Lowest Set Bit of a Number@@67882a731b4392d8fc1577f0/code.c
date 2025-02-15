@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    
-    printf("Enter a number: ");
+    int num
     scanf("%d", &num);
     
     if (num == 0) {
