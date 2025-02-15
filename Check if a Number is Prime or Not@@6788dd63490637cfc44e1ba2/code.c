@@ -12,7 +12,7 @@ int main() {
     for (int i = 2; i < a; i++) {
         if (a % i == 0) {
             printf("Not Prime");
-            return 0;  // Exit immediately if a divisor is found
+            break;  // Exit immediately if a divisor is found
         }
     }
 
