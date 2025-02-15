@@ -3,10 +3,12 @@
 int main(){
     int a;
     scanf("%d",&a);
-    printf("hello");
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          )
-
-
+    if(a=="1"||a=="5"){
+        printf("31");
+    }
+    else{
+        printf("30");
+    }
     return 0;
 }
