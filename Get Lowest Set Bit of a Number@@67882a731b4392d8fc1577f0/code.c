@@ -1,9 +1,16 @@
-// Your code here...
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main() {
     int num;
-    scanf("%d",&num);
-    printf("%d",num & -num);
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    if (num == 0) {
+        printf("No set bit found.\n");
+    } else {
+        printf("Lowest set bit: %d\n", num & -num);
+    }
+
     return 0;
 }
