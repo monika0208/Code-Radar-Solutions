@@ -11,7 +11,7 @@ int main() {
         printf("12345.6789");
     }
     else{
-        printf("You entered: %lf",a);
+        printf("You entered: %.4lf",a);
     }
     return 0;
 }
