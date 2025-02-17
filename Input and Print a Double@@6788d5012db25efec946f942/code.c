@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    float a;
+    double float a;
     scanf("%f",&a);
     if(a==12345.6789){
         printf("12345.6789");
