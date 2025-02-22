@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-void reverse(arr[],a,b){
-    while(){
-    temp=a;
-    a=b;
-    b=temp;
+void reverse(int arr[],int a,int b){
+    while(a<b){
+    int temp=arr[a];
+    arr[a]=arr[b];
+    arr[b]=temp;
     a++;
     b--;
     }
@@ -12,10 +12,11 @@ void reverse(arr[],a,b){
 }
 
 
-void rotate(arr[]){
-    reverse(arr[],0,n-1);
-    reverse1(arr[],0,k-1);
-    reverse(arr[],k,n-1);
+void rotate(int arr[],int n;int k){
+    k=k%2;
+    reverse(arr,0,n-1);
+    reverse1(arr,0,k-1);
+    reverse(arr,k,n-1);
 }
 
 int main(){
@@ -27,6 +28,11 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    rotate()
+    rotate(arr,n,k);
+
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
+
     return 0;
 }
