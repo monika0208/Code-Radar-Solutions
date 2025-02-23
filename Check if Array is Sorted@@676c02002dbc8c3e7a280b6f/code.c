@@ -20,9 +20,5 @@ int main(){
     else{
         printf("Not Sorted");
     }
-    if(n==1){
-        printf("Not Sorted");
-        return 0;
-    }
     return 0;
 }
