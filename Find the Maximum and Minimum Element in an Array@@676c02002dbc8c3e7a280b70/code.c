@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 
-void min_max(int arr[];int n;int *min;int *max){
+void min_max(int arr[],int n,int *min,int *max){
     *min=arr[0];
     *max=arr[0];
     for(int i=1;i<n;i++){
