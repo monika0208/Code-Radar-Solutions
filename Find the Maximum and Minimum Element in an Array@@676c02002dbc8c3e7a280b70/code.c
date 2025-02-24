@@ -23,7 +23,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int min,max;
-    min_max(arr;n;&min;&max);
+    min_max(arr,n,&min,&max);
     printf("%d ",min);
     printf("%d",max);
 
