@@ -14,6 +14,7 @@ int main(){
             max=arr[i];
         }
     }
+    printf("%d",max);
     int smax;
 
     for(int i=0;i<n;i++){
