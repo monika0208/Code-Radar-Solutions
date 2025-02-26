@@ -19,9 +19,11 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]>max && arr[i]!=max){
             smax=max;
+            printf("%d",smax);
+
         }
     }
-    printf("%d",smax);
+    // printf("%d",smax);
 
     return 0;
 }
