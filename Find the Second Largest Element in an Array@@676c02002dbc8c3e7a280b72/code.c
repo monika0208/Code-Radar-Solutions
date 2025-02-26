@@ -20,12 +20,12 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]>smax && arr[i]!=max){
             smax=arr[i];
-            printf("%d",smax);
+    
 
             
         }
     }
-    // printf("%d",smax);
+    printf("%d",smax);
 
     return 0;
 }
