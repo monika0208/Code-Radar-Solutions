@@ -16,13 +16,13 @@ int main(){
     }
 
     
-    int smax=arr[0];
+    int smax=-1;
     for(int i=0;i<n;i++){
         if(arr[i]>smax && arr[i]!=max){
             smax=arr[i];
         }
     }
-    if(smax==max){
+    if(smax==-1){
         printf("-1");
     }
     else{
