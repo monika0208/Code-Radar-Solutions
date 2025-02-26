@@ -11,11 +11,11 @@ void reverse(int arr[],int a,int b){
 
 }
 
-void reversef(){
-    reverse(arr,0,n-1);
-    reverse(arr,0,k-1),
-    reverse(arr,k,n-1);
-}
+// void reversef(){
+//     reverse(arr,0,n-1);
+//     reverse(arr,0,k-1),
+//     reverse(arr,k,n-1);
+// }
 
 
 int main(){
@@ -27,8 +27,10 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-
-    reversef(arr);
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1),
+    reverse(arr,k,n-1);
+    printf("%d",reverse);
 
 
 }
