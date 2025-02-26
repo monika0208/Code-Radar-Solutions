@@ -20,10 +20,10 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]>smax && arr[i]!=max){
             smax=arr[i];
-    
-
-            
         }
+    }
+    if(smax==max){
+        printf("-1");
     }
     printf("%d",smax);
 
