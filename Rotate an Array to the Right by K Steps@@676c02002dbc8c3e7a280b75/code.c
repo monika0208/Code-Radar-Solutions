@@ -3,11 +3,13 @@
 
 
 void reverse(int arr[],int a,int b){
+    for(int i=0;i<n;i++){
     int temp=arr[a];
     arr[a]=arr[b];
     arr[b]=temp;
     a++;
     b--;
+    }
 
 }
 
