@@ -6,9 +6,8 @@ int main(){
     int count=0;
     scanf("%d",&n);
     int arr[n];
-    for(int i=1;i<n;i++){
-        scanf("%d",&arr[i]);
-        printf("%d\n",arr[i]);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i])
     }
     printf("%d\n",arr[i]);
     for(int i=0;i<n;i++){
