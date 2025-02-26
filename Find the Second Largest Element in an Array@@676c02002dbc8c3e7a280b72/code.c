@@ -25,7 +25,9 @@ int main(){
     if(smax==max){
         printf("-1");
     }
+    else{
     printf("%d",smax);
+    }
 
     return 0;
 }
