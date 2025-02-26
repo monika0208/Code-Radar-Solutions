@@ -4,6 +4,7 @@
 int main(){
     int n;
     int count=0;
+    int arr[];
     scanf("%d",&n);
     for(int i=1;i<n;i++){
         scanf("%d",&arr[i]);
