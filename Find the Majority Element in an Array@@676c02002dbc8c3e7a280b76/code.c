@@ -15,13 +15,15 @@ int main(){
                 count+=1;
                 
             }
+        
         }
-    }
-    if(count=max){
+    if(count>n/2){
         printf("%d",arr[i]);
     }
     else{
         printf("-1");
     }
     return 0;
-}
+    }
+    
+    }
