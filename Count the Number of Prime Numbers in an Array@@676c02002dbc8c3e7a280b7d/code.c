@@ -5,6 +5,7 @@ int main(){
     int n;
     scanf("%d",&n);
     int count=0;
+    int prime;
 
     int arr[n];
     for(int i=0;i<n;i++){
