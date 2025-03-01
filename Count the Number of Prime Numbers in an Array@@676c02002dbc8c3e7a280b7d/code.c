@@ -19,8 +19,9 @@ int main(){
                 prime=1;
                 count+=1;
             }
-        }
         printf("%d",count);
+        }
+        
     }
 
     return 0;
