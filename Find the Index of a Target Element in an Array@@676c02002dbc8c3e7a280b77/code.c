@@ -18,5 +18,6 @@ int main(){
             printf("%d",i);
         }
     }
+    printf("-1");
     return 0;
 }
