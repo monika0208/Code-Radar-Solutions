@@ -20,7 +20,7 @@ int main(){
                 count+=1;
             }
         }
-        printf("%d",count);
+    printf("%d",count);
         
     }
 
