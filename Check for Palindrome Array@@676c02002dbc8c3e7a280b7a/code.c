@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 
-int ispalindrome(int arr,int n){
+int ispalindrome(int arr,int n,int i,int j){
     for(int i=0,j=n-1;i<j;i++,j--){
         if(arr[i]!=arr[j]){
             return;
