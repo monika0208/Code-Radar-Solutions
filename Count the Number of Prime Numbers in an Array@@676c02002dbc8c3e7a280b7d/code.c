@@ -10,7 +10,7 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        for(int i=2;i<arr[i];){
+        for(int i=2;i<arr[i];i++){
             if(arr[i]%i==0){
                 prime=0;
                 break;
