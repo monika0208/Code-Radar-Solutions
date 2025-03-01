@@ -17,7 +17,7 @@ int main(){
             }
             else{
                 prime=1;
-                count+=1
+                count+=1;
             }
         }
     printf("%d",count);
