@@ -8,6 +8,7 @@ int ispalindrome(int arr[],int n){
             return 0;
         }
     }
+    return 1;
 }
 
 int main(){
