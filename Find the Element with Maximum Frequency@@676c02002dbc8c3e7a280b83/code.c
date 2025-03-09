@@ -17,12 +17,11 @@ int main(){
             }
         }
     }
-    for(int i=0;i<n;i++){
         if(count>max){
             max=count;
             max_el=arr[i];
         }
-    }
+
     printf("%d",max_el);
     return 0;
     }
