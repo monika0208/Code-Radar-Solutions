@@ -23,10 +23,11 @@ int main(){
         }
     }
     if(min_m){
-    printf("%d",min_m);
+        printf("-1");
     }
     else{
-        printf("-1");
+        printf("%d",min_m);
+       
     }
     return 0;
 }
