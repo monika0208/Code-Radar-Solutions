@@ -14,12 +14,12 @@ int main(){
         }
     }
 
-    int *min=arr[0];
+    int min_m=arr[0];
     for(int i=0;i<n;i++){
-        if(arr[i]<*min && arr[i]!=min){
-            *min=arr[i];
+        if(arr[i]<min_m && arr[i]!=min){
+            min_m=arr[i];
         }
     }
-    printf("%d",*min);
+    printf("%d",min_m);
     return 0;
 }
