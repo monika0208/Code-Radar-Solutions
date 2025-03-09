@@ -13,9 +13,12 @@ int main(){
             }
         }
     }
-    if(count>max){
-        max=count;
+    for(int i=0;i<n;i++){
+        if(count>max){
+            printf("%d",arr[i]);
+        }
+
     }
-    printf("%d",max);
+    }
     return 0;
 }
