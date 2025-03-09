@@ -20,6 +20,7 @@ int main(){
             max=count;
             max_el=arr[i];
         }
+    }
 
     printf("%d",max_el);
     return 0;
