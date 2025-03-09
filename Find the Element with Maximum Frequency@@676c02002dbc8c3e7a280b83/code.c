@@ -15,9 +15,9 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(count>max){
-            printf("%d ",arr[i]);
+            max=count;
+            printf("%d",arr[i]);
         }
-
     }
     return 0;
     }
