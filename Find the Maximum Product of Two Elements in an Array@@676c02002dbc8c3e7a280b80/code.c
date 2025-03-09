@@ -14,8 +14,8 @@ int main(){
                 max=arr[i]*arr[j];
 
             }
-            printf("%d",max);
         }
+        printf("%d",max);
         return 0;
     }
 }
