@@ -13,20 +13,16 @@ int main(){
         if(arr[i]<2){
             continue;
         }
-        else{
-            for(int j=2;j<arr[i];j++){
-                if(arr[i]%j==0){
-                    prime=0;
-                    break;
-
-                }
-                else{
-                    count+=1;
-                }
+        for(int j=2;j<arr[i];j++){
+            if(arr[i]%j==0){
+                prime=0;
+                break;
             }
-            
         }
-        printf("%d",count);
+        if(prime){
+            count++;
+        }
     }
+    printf("%d",count);
     return 0;
 }
