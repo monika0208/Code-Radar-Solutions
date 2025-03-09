@@ -23,8 +23,5 @@ int main(){
     if(prime){
         printf("%d",count);
     }
-    else{
-        printf("0");
-    }
     return 0;
 }
