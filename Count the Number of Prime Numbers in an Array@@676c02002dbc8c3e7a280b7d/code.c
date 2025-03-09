@@ -1,27 +1,30 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int prime=1;
-    int count=0;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0,j=2;i<n,j<arr[i];i++,j++){
-        if(arr[i]%j==0){
-            prime=0;
-            break;
+    for(int i=0;i<n;i++){
+        int prime=1;
+        if(arr[i]<2){
+            continue;
         }
         else{
-            prime=1;
-            count+=1;
-        }
-    }
+            for(int j=2;j<arr[i];j++){
+                if(arr[i]%j==0){
+                    prime=0;
+                    break;
 
-    if(prime){
-        printf("%d",count);
+                }
+                else{
+                    count+=1;
+                }
+            }
+            printf("%d",count);
+        }
     }
     return 0;
 }
