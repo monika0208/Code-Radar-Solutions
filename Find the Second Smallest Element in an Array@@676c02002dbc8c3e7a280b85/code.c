@@ -15,14 +15,14 @@ int main(){
     }
     int exist=0;
 
-    int min_m=arr[0];
+    int min_m=__INT_MAX__;
     for(int i=0;i<n;i++){
         if(arr[i]<min_m && arr[i]!=min){
             min_m=arr[i];
             exist=1;
         }
     }
-    if(min_m){
+    if(min_m==__INT_MAX__){
         printf("-1");
     }
     else{
