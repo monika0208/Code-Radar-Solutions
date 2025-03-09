@@ -16,7 +16,6 @@ int main(){
                 count++;
             }
         }
-    }
         if(count>max){
             max=count;
             max_el=arr[i];
