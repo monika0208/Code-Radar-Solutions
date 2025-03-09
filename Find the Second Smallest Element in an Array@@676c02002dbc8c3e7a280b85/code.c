@@ -22,7 +22,7 @@ int main(){
             exist=1;
         }
     }
-    if(exist){
+    if(min_m==arr[0]){
     printf("%d",min_m);
     }
     else{
