@@ -13,13 +13,20 @@ int main(){
             min=arr[i];
         }
     }
+    int exist=0;
 
     int min_m=arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]<min_m && arr[i]!=min){
             min_m=arr[i];
+            exist=1;
         }
     }
+    if(exist){
     printf("%d",min_m);
+    }
+    else{
+        printf("-1");
+    }
     return 0;
 }
