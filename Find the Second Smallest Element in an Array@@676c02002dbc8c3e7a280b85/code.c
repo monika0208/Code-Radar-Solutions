@@ -25,8 +25,5 @@ int main(){
     if(exist){
     printf("%d",min_m);
     }
-    else{
-        printf("-1");
-    }
     return 0;
 }
