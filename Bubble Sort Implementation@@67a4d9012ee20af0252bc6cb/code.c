@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-void bubbleSort(int arr,int n,int i,int j){
+void bubbleSort(int arr,int n){
+    int temp;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]>arr[j]){
@@ -14,6 +15,6 @@ void bubbleSort(int arr,int n,int i,int j){
 
 void printArray(int arr,int n){
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
