@@ -1,16 +1,19 @@
-// Your code here...
 #include<stdio.h>
 
-void bubbleSort(int arr[],int n){
-    int min=arr[0];
+void bubbleSort(int arr,int n){
     for(int i=0;i<n;i++){
-        if(min>arr[i]){
-            min=arr[i];
+        for(int j=i+1;j<n;j++){
+            if(arr[i]>arr[j]){
+                temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+            }
         }
     }
 }
 
-void printArray(int arr[],int n,int min){
-    bubbleSort(arr,n);
-    printf("%d",min);
+void printArray(int arr,int n){
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
 }
