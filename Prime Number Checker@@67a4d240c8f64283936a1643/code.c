@@ -5,7 +5,6 @@ int isPrime(int num,int t){
     for(int j=2;j<num;i++){
         if(num%j==0){
             return 0;
-            break;
         }
     }
     }
