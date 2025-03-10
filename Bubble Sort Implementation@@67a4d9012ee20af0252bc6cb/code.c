@@ -9,5 +9,4 @@ void bubblesort(int arr[],int n){
             printf("%d",min);
         }
     }
-    return 0;
 }
