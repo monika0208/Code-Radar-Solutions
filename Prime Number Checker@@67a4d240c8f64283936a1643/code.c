@@ -1,5 +1,11 @@
 #include<stdio.h>
-int main(){
-    printf("hello");
-    return 0;
+
+void isPrime(){
+    for(int i=2;i<n;i++){
+        if(num%i==0){
+            printf("0");
+            break;
+        }
+    }
+    printf("1");
 }
