@@ -6,7 +6,6 @@ void bubbleSort(int arr[],int n){
     for(int i=0;i<n;i++){
         if(min>arr[i]){
             min=arr[i];
-            printf("%d",min);
         }
     }
 }
