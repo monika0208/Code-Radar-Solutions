@@ -9,16 +9,18 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]-arr[j]<min){
-                min=arr[i];
-                
+            int s=arr[i]-arr[j];
+            if(s<min){
+                min=s;
+
 
             }
         }
     }
-    printf("%d",min);
+    printf("%d",s);
 
     return 0;
 }
