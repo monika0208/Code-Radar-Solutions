@@ -17,9 +17,11 @@ int main(){
         //     printf("%d",arr[i]);
         // }
     }
+    for(int i=0;i<n;i++){
     if(count>max){
             printf("%d",arr[i]);
         }
+    }
     
     return 0;
 }
