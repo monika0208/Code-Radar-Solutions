@@ -14,5 +14,10 @@ int main(){
             max=arr[i];
         }
     }
+    if(max==arr[0]){
+        printf("-1");
+    }
+    else{
     printf("%d",max);
+    }
 }
