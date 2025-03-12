@@ -9,10 +9,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        arr[i]++;
-        arr[i]/=n;
-        printf("%d",arr[i]);
+        sum+=arr[i];
+        sum/=n;
     }
-    // printf("%d",arr[i]);
+    printf("%d",sum);
     return 0;
 }
