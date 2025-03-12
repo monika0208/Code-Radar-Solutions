@@ -13,10 +13,13 @@ int main(){
                 count++;
             }
         }
-        if(count>max){
+        // if(count>max){
+        //     printf("%d",arr[i]);
+        // }
+    }
+    if(count>max){
             printf("%d",arr[i]);
         }
-    }
     
     return 0;
 }
