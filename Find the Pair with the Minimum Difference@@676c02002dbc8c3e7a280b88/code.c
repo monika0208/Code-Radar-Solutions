@@ -20,7 +20,7 @@ int main(){
             }
         }
     }
-    printf("%d",s);
+    printf("%d",min);
 
     return 0;
 }
