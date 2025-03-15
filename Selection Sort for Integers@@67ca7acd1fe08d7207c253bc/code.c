@@ -1,5 +1,5 @@
 // Your code here...
-int selectionsort(int arr,int n){
+void selectionsort(int arr,int n){
     int min;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
