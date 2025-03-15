@@ -1,11 +1,11 @@
 // Your code here...
-void selectionsort(int arr,int n){
+void selectionsort(int arr[],int n){
     int min;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]>arr[j]){
                 min=arr[j];
-                printf("%d",min);
+                printf("%d ",min);
             }
         }
     }
