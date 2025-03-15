@@ -1,9 +1,9 @@
 // Your code here...
 void selectionSort(int arr[],int n){
-    int min;
     for(int i=0;i<n;i++){
+        int min=i;
         for(int j=i+1;j<n;j++){
-            if(arr[i]>arr[j]){
+            if(min>arr[j]){
                 min=arr[j];
                 printf("%d ",min);
             }
