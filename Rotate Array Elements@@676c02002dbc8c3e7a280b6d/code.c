@@ -10,10 +10,10 @@ void reverse(int arr[],int n,int a,int b){
     }
 }
 
-void rotate(int n,int k,int arr[]){
-    reverse(0,n-1);
-    reverse(0,k-1);
-    reverse(k,n-1);
+void rotate(int arr[],int n,int k){
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1);
+    reverse(arr,k,n-1);
 
 }
 
@@ -26,6 +26,6 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    rotate(arr,n);
+    rotate(arr,n,k);
     return 0;
 }
