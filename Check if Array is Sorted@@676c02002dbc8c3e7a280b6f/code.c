@@ -12,7 +12,7 @@ int main(){
         printf("Sorted");
         return 0;
     }
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         if(arr[i]<arr[i-1]){
             sorted=0;
             break;
