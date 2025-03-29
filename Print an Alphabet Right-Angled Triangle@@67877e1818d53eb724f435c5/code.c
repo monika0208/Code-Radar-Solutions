@@ -3,6 +3,7 @@
 int main(){
     int n;
     scanf("%d",&n);
+    int a=1;
     for(int i=0;i<n;i++){
         int a=a+64;
         for(int j=0;j<i;j++){
