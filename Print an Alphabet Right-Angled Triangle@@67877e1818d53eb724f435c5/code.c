@@ -4,8 +4,10 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
+        int a=a+64;
         for(int j=0;j<i;j++){
-            printf("%c",j);
+            printf("%c",a);
+            a+=1;
         }
         printf("\n");
     }
