@@ -6,6 +6,6 @@ int fibonacciSeries(){
         return 1;
     }
     else{
-        return fibonacci(n-1)+fibonacci(n-2);
+        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
     }
 }
