@@ -3,7 +3,7 @@
 void reverse(int arr[],int a,int b){
     while(a<b){
         int temp=arr[a];
-        arr[b]=arr[b];
+        arr[a]=arr[b];
         arr[b]=temp;
         a++;
         b--;
