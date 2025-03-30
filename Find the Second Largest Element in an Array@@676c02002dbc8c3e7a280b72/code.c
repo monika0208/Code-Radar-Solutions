@@ -1,15 +1,18 @@
 #include<stdio.h>
 #include<limits.h>
 
+int max=INT_MIN;
+int smax=INT_MIN;
+
 void max(int arr[],int n){
-    int max=INT_MIN;
+    
     for(int i=0;i<n;i++){
     if(arr[i]>max){
         max=arr[i];
     }}
 }
 void smax(int arr[],int n){
-    int smax=INT_MIN;
+    
     for(int i=0;i<n;i++){
     if(arr[i]>smax && arr[i]!=max){
         smax=arr[i];
