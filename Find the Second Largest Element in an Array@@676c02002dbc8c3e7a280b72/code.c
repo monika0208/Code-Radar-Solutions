@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<limits.h>
 
-void max(int arr[]){
+void max(int arr[],int n){
     int max=INT_MIN;
     for(int i=0;i<n;i++){
     if(arr[i]>max){
@@ -9,7 +9,7 @@ void max(int arr[]){
     }}
 }
 int smax=INT_MIN;
-void smax(int arr[]){
+void smax(int arr[],int n){
     for(int i=0;i<n;i++){
     if(arr[i]>smax && arr[i]!=max){
         smax=arr[i];
@@ -24,6 +24,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+
+    smax(arr,n);
 
     
 
