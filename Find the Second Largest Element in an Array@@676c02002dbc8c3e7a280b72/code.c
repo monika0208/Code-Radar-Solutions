@@ -2,7 +2,7 @@
 #include<limits.h>
 
 void max(int arr[]){
-    int max=INT__MIN;
+    int max=INT_MIN;
     if(arr[i]>max){
         max=arr[i];
     }
@@ -12,6 +12,7 @@ void smax(int arr[]){
     if(arr[i]>smax && arr[i]!=max){
         smax=arr[i];
     }
+    printf("%d",smax);
 }
 
 int main(){
@@ -21,6 +22,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+
+    
 
     return 0;
 }
