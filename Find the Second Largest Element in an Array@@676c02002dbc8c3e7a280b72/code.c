@@ -8,8 +8,8 @@ void max(int arr[],int n){
         max=arr[i];
     }}
 }
-int smax=INT_MIN;
 void smax(int arr[],int n){
+    int smax=INT_MIN;
     for(int i=0;i<n;i++){
     if(arr[i]>smax && arr[i]!=max){
         smax=arr[i];
