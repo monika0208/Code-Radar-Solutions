@@ -10,7 +10,7 @@ int main(){
     if(arr[1]<arr[0]){
         printf("%d",arr[0]);
     }
-    for(int i=1;i<n-1;i++){
+    for(int i=1;i<n-2;i++){
         if(arr[i]>arr[i-1]&& arr[i]<arr[i+1]){
             printf("%d",arr[i]);
         }
