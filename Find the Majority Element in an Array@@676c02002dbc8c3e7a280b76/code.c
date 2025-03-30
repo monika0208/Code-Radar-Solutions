@@ -13,12 +13,14 @@ int main(){
             if(arr[i]==arr[j]){
                 count+=1;
             }
+        
         }
-        if(count>n/2){
-            printf("%d",arr[i]);
-        }
-        else{
-            printf("-1");
-        }
+        printf("%d",count);
+        // if(count>n/2){
+        //     printf("%d",arr[i]);
+        // }
+        // else{
+        //     printf("-1");
+        // }
     }
 }
