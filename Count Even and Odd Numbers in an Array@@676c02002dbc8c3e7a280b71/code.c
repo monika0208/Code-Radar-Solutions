@@ -12,7 +12,7 @@ int main(){
         if(arr[i]%2==0){
             even+=1;
         }
-        else{
+        else if(arr[i]%2!=0){
             odd+=1;
         }
     }
