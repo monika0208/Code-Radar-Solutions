@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void reverse(int k,int n,int a,int b){
+void reverse(int arr[],int n,int k,int a,int b){
     while(a<b){
         int temp=arr[a];
         arr[a]=arr[b];
