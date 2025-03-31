@@ -29,3 +29,34 @@ int main(){
     return 0;
 
 }
+
+
+
+
+
+
+// #include<stdio.h>
+
+
+// int reverse(int arr[],int a,int b){
+//     while(a<b){
+//         int temp=arr[a];
+//         arr[a]=arr[b];
+//         arr[b]=temp;
+//         a++;
+//         b--;
+//     }
+// }
+
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     int arr[n];
+//     for(int i=0;i<n;i++){
+//         scanf("%d",&arr[i]);
+//     }
+//     reverse(arr,n);
+//     if(reverse(arr,n)==arr[i]){
+    
+//     }
+// }
