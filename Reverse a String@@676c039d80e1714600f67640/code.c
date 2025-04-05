@@ -3,7 +3,7 @@
 #include<string.h>
 
 int main(){
-    char str[];
+    char str[100];
     fgets(str);
     int n=strlen(str);
     for(int i=0,j=n-1;i<=j;i++,j--){
