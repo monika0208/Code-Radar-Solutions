@@ -6,6 +6,7 @@ int main(){
     char str[100];
     scanf("%s",str);
     int isPalindrome=1;
+    int n=strlen(str);
     for(int i=0,j=n-1;i<=j;i++,j--){
         if(str[i]!=str[j]){
             isPalindrome=0;
