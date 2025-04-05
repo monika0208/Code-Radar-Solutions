@@ -5,15 +5,19 @@
 int main(){
     char str[100];
     scanf("%s",str);
-    char original=str;
-    int n=strlen(str);
+    int isPalindrome=1;
     for(int i=0,j=n-1;i<=j;i++,j--){
-        int temp=str[i];
-        str[i]=str[j];
-        str[j]=temp;
+        if(str[i]!=str[j]){
+            isPalindrome=0;
+            break;
+        }
     }
-    if(original==str){
+    if(isPalindrome){
         printf("Yes");
     }
+    else{
+        printf("No");
+    }
+
     return 0;
 }
