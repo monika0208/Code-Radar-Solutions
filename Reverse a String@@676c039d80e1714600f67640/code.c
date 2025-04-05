@@ -4,7 +4,7 @@
 
 int main(){
     char str[100];
-    fgets(str);
+    gets(str);
     int n=strlen(str);
     for(int i=0,j=n-1;i<=j;i++,j--){
         int temp=str[i];
