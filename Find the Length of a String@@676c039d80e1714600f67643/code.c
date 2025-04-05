@@ -9,6 +9,7 @@ int main(){
     int i=0
     while(str[i]!='\0'){
         count+=1;
+        i++;
     }
     printf("%d",count);
     return 0;
