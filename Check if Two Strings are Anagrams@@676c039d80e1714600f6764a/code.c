@@ -13,7 +13,7 @@ int main(){
         str[i]=str[j];
         str[j]=temp;
     }
-    printf("%s",org);
+    printf("%s\n",org);
     printf("%s",str);
     if(org==str){
         printf("Yes");
