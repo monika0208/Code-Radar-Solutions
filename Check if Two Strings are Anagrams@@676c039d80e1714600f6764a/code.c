@@ -14,6 +14,7 @@ int main(){
         str[j]=temp;
     }
     printf("%s",org);
+    printf("%s",str);
     if(org==str){
         printf("Yes");
     }
