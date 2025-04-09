@@ -6,8 +6,8 @@ int main() {
     scanf("%s", str);
 
     char n, a;
-    scanf("%c", &n);  // Space before %c to skip newline
-    scanf("%c", &a);
+    scanf(" %c", &n);  // Space before %c to skip newline
+    scanf(" %c", &a);
 
     int l = strlen(str);
     for (int i = 0; i < l; i++) {
