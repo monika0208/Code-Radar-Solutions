@@ -4,7 +4,7 @@
 
 int main(){
     char str[100];
-    fgets(str,sizeof(str),stdin);
+    scanf("%s",str);
     char n;
     scanf("%c",&n);
     char a;
