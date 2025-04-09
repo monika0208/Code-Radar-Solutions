@@ -6,7 +6,7 @@ int main(){
     char str[100];
     scanf("%s",str);
     char n;
-    scanf("%c",&n);
+    scanf(" %c",&n);
     int count=0;
     int l=strlen(str);
     for(int i=0;i<l;i++){
