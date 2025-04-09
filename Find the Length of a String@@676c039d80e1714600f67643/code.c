@@ -6,7 +6,7 @@ int main(){
     scanf("%s",str);
     int count=0;
     int i=0;
-    while(str[i]!='\0'&&str[i]=='\n'){
+    while(str[i]!='\0'){
         count+=1;
         i++;
     }
