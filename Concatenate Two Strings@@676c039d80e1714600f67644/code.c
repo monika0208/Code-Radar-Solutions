@@ -6,6 +6,7 @@ int main(){
     char str2[100];
     fgets(str1,sizeof(str1),stdin);
     fgets(str2,sizeof(str2),stdin);
-    printf("%s",strcpy(str1,str2));
+    strcat(str1,str2);
+    printf("%s",str1);
     return 0;
 }
