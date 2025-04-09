@@ -4,12 +4,12 @@
 
 int main(){
     char str[100];
-    scanf("%s",str);
-    int n;
+    fgets(str,sizeof(str),stdin);
+    char n;
     scanf("%c",&n);
-    int a;
+    char a;
     scanf("%c",&a);
-    int l=sizeof(str);
+    int l=strlen(str);
     for(int i=0;i<l;i++){
         if(str[i]==n){
             str[i]=a;
