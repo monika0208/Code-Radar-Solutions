@@ -3,7 +3,7 @@
 
 int main() {
     char str[100];
-    scanf("%s", str);  // Reads string (no spaces allowed)
+    scanf("%s", str);
 
     char n, a;
     scanf(" %c", &n);  // Space before %c to skip newline
@@ -16,6 +16,6 @@ int main() {
         }
     }
 
-    printf("%s\n", str);
+    printf("%s", str);
     return 0;
 }
